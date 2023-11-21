@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_exercise_question_type_mcqs",
+  "info": {
+    "displayName": "Question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Choice_A": {
+      "type": "string"
+    },
+    "Choice_B": {
+      "type": "string"
+    },
+    "Choice_C": {
+      "type": "string"
+    },
+    "Choice_D": {
+      "type": "string"
+    },
+    "CommentBoxAnswer": {
+      "type": "text"
+    },
+    "QuestionType": {
+      "type": "enumeration",
+      "enum": [
+        "mutiple-choice",
+        "comment-box",
+        "fill-in-the-blanks"
+      ]
+    },
+    "McqAnswer": {
+      "type": "string"
+    }
+  }
+}

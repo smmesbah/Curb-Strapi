@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_task_types_exercise_tasks",
+  "info": {
+    "displayName": "ExerciseTask",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "articleContent": {
+      "type": "richtext"
+    },
+    "time": {
+      "type": "integer"
+    },
+    "Question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "exercise-question-type.mcq"
+    }
+  }
+}

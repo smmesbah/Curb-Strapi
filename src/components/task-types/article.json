@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_task_types_articles",
+  "info": {
+    "displayName": "ArticleTask",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "articleContent": {
+      "type": "richtext"
+    }
+  }
+}

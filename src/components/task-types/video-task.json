@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_task_types_video_tasks",
+  "info": {
+    "displayName": "VideoTask",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "articleContent": {
+      "type": "richtext"
+    }
+  }
+}
