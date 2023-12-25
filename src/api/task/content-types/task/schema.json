@@ -23,25 +23,8 @@
         "exercise"
       ]
     },
-    "userFeedback": {
-      "type": "boolean"
-    },
-    "accessCount": {
+    "day": {
       "type": "integer"
-    },
-    "finishedReading": {
-      "type": "boolean"
-    },
-    "week": {
-      "type": "integer"
-    },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "to-do",
-        "in-progress",
-        "completed"
-      ]
     },
     "taskTypes": {
       "type": "dynamiczone",
@@ -51,6 +34,9 @@
         "task-types.video-task"
       ],
       "max": 1
+    },
+    "taskDescription": {
+      "type": "string"
     }
   }
 }
