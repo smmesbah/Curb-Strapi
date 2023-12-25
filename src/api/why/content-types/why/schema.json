@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "whies",
+  "info": {
+    "singularName": "why",
+    "pluralName": "whies",
+    "displayName": "Why"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    }
+  }
+}
