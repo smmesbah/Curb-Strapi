@@ -691,11 +691,7 @@ export interface ApiTaskTask extends Schema.CollectionType {
   attributes: {
     taskTitle: Attribute.String;
     taskType: Attribute.Enumeration<['article', 'video', 'exercise']>;
-    userFeedback: Attribute.Boolean;
-    accessCount: Attribute.Integer;
-    finishedReading: Attribute.Boolean;
-    week: Attribute.Integer;
-    status: Attribute.Enumeration<['to-do', 'in-progress', 'completed']>;
+    day: Attribute.Integer;
     taskTypes: Attribute.DynamicZone<
       [
         'task-types.article',
@@ -706,6 +702,7 @@ export interface ApiTaskTask extends Schema.CollectionType {
       Attribute.SetMinMax<{
         max: 1;
       }>;
+    taskDescription: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
